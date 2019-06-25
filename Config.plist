@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>Soupan.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,}$</string>
+			<key>Title</key>
+			<string>Soupan</string>
+			<key>URL</key>
+			<string>http://pansou.com/?q={popclip text}</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>http://pansou.com/</string>
+			<key>Name</key>
+			<string>Pansou</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>mailto:hoululingmail.com</string>
+			<key>Name</key>
+			<string>Hou lulin</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Search the web using Pansou.</string>
+	<key>Extension Identifier</key>
+	<string>com.snowzjx.popclip.extension.pansou-search</string>
+	<key>Extension Image File</key>
+	<string>Pansou.png</string>
+	<key>Extension Name</key>
+	<string>Pansou</string>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>
